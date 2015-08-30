@@ -47,7 +47,6 @@
     <orderEntry type="library" exported="" scope="TEST" name="asm-tree-5.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="httpcore-4.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="ant-launcher-1.8.0" level="project" />
-    <orderEntry type="library" name="commons" level="project" />
   </component>
 </module>
 

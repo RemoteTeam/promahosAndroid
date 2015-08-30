@@ -1,4 +1,4 @@
-package promahos.app.promahosapp;
+package promahos.app.activity;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

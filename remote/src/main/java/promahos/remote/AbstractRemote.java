@@ -63,7 +63,7 @@ public abstract class AbstractRemote implements IRemote {
             result = output.toString();
 
             if(result!=null){
-                result = result.replaceAll("\\u0000", "")
+                /*result = result.replaceAll("\\u0000", "")
                 .replace("\\u00d1", new String("Ñ".getBytes("ISO-8859-1")))
                 .replace("\\u00f1", new String("ñ".getBytes("ISO-8859-1")))
                 .replace("\\u00c1", new String("Á".getBytes("ISO-8859-1")))
@@ -76,7 +76,7 @@ public abstract class AbstractRemote implements IRemote {
                 .replace("\\u00ed", new String("í".getBytes("ISO-8859-1")))
                 .replace("\\u00f3", new String("ó".getBytes("ISO-8859-1")))
                 .replace("\\u00fa", new String("ú".getBytes("ISO-8859-1")))
-                ;
+                ;*/
                 System.out.println(result);
             }
 

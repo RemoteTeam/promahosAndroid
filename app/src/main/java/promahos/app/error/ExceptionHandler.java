@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Build;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import promahos.app.promahosapp.ForceClose;
 
 /**
  * Created by rbazua on 26/02/2015.
@@ -52,9 +51,9 @@ public class ExceptionHandler implements Thread.UncaughtExceptionHandler {
         errorReport.append(Build.VERSION.INCREMENTAL);
         errorReport.append(LINE_SEPARATOR);
 
-        Intent intent = new Intent(myContext, ForceClose.class);
-        intent.putExtra("error", errorReport.toString());
-        myContext.startActivity(intent);
+        //Intent intent = new Intent(myContext, ForceClose.class);
+        //intent.putExtra("error", errorReport.toString());
+        //myContext.startActivity(intent);
 
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(10);
